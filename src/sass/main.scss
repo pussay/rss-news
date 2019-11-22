@@ -19,10 +19,20 @@ body {
 #root {
   .article {
     padding: 10px;
+    color: #373737;
+    font-family: "Roboto", sans-serif;
   }
 }
 #headline {
   background-color: #7c9937;
+  font-family: "Roboto", sans-serif;
   padding: 10px;
   color: white;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #8ca8ac;
 }
