@@ -1,14 +1,14 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   position: relative;
 }
 
-#canvas--popup{
+#canvas--popup {
   display: none;
   position: fixed;
   top: 20px;
@@ -16,8 +16,13 @@ body{
   padding: 100px;
 }
 
-#root{
-  .article{
+#root {
+  .article {
     padding: 10px;
   }
+}
+#headline {
+  background-color: #7c9937;
+  padding: 10px;
+  color: white;
 }

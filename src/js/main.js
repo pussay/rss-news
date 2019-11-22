@@ -1,11 +1,11 @@
 import getRSS from "./rss";
 
 const root = document.getElementById("root");
-
 const newLayout = article =>
   `<div data-source="${article.link}" class="article">
-        <a href="${article.link}" target="_blank"> <h3>${article.title}</h3></a>
-    </div>`;
+<a href="${article.link}" target="_blank"> <h3>${article.title}</h3></a>
+
+</div>`;
 
 const renderFeed = ({ items }) => {
   root.innerHTML = "";
