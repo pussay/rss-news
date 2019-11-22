@@ -17,8 +17,19 @@ body {
 }
 
 #root {
+  background: #eeeeee;
   .article {
     padding: 10px;
+
+    background: #fff;
+    width: 146px;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 0 10px 0;
+    margin: 0 6px 6px 0;
+    height: 200px;
+    vertical-align: top;
+
     color: #373737;
     font-family: "Roboto", sans-serif;
   }
